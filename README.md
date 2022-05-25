@@ -65,8 +65,6 @@ The chain ID should be 1337. If you have a localhost rpc set up, you may need to
 you can also change your status of your open ports by going to port settings.
 <br/>
 
-![port settings](gitpod-port.png)
-
 ## Run Locally
 
 Clone the project
