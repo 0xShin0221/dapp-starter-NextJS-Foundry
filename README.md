@@ -60,8 +60,6 @@ https://8545-copper-swordtail-j1mvhxv3.ws-eu18.gitpod.io/
 The chain ID should be 1337. If you have a localhost rpc set up, you may need to overwrite it.
 <br/>
 
-![MetaMask RPC Import](wallet.png)
-
 you can also change your status of your open ports by going to port settings.
 <br/>
 
