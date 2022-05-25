@@ -1,0 +1,37 @@
+{
+    "name": "dapp-starter-NextJS-Foundry",
+    "version": "1.0.0",
+    "description": "",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/sintaro/dapp-starter-NextJS-Foundry.git"
+    },
+    "keywords": [
+        "Forge",
+        "Solidity",
+        "Foundry",
+        "CTF",
+        "Smart contracts"
+    ],
+    "author": "Nicolás García",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/sintaro/dapp-starter-NextJS-Foundry/issues"
+    },
+    "homepage": "https://github.com/sintaro/dapp-starter-NextJS-Foundry#readme",
+    "scripts": {
+        "format": "make format'",
+        "format:check": "make format-check",
+        "lint": "make lint",
+        "lint:check": "make lint-check",
+        "lint-format": "make lint-format",
+        "lint-format:check": "make lint-format-check"
+    },
+    "devDependencies": {
+        "hardhat": "^2.9.1",
+        "prettier": "^2.5.1",
+        "prettier-plugin-solidity": "1.0.0-beta.19",
+        "solhint": "^3.3.6",
+        "solhint-plugin-prettier": "^0.0.5"
+    }
+}

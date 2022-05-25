@@ -1,0 +1,12 @@
+{
+  "makefile.extensionOutputFolder": "./.vscode",
+  "editor.formatOnSave": true,
+  "solidity.formatter": "prettier",
+  "solidity.packageDefaultDependenciesContractsDirectory": "packages/contracts/src",
+  "solidity.packageDefaultDependenciesDirectory": "packages/contracts/lib",
+  "solidity.compileUsingRemoteVersion": "v0.8.11",
+  "[solidity]": {
+    "editor.defaultFormatter": "JuanBlanco.solidity"
+  },
+  "editor.stickyTabStops": false
+}

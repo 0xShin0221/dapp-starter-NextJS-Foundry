@@ -1,0 +1,33 @@
+{
+  "name": "turborepo-basic-shared",
+  "version": "0.0.0",
+  "private": true,
+  "repository": "github:G3root/nextjs-dapp-starter-ts",
+  "author": "G3root",
+  "license": "MIT",
+  "keywords": [
+    "ethereum",
+    "smart-contracts",
+    "template",
+    "starter",
+    "hardhat",
+    "solidity",
+    "nextjs",
+    "typescript"
+  ],
+  "scripts": {
+    "build": "npx turbo run build",
+    "dev": "npx turbo run dev --parallel",
+    "lint": "npx turbo run lint",
+    "lint:fix": "npx turbo run lint:fix",
+    "format": "npx prettier --write \"**/*.{ts,tsx,md}\""
+  },
+  "devDependencies": {
+    "husky": "^8.0.1",
+    "prettier": "^2.5.1"
+  },
+  "engines": {
+    "npm": ">=7.0.0",
+    "node": ">=14.0.0"
+  }
+}
